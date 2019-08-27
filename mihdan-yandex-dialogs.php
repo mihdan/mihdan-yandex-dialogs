@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Mihdan: Yandex Dialogs
- * Description: Elementor Yandex Maps Widget - Easily add multiple address pins onto the same map with support for different map types (Road Map/Satellite/Hybrid/Terrain) and custom map style. Freely edit info window content of your pins with the standard Elementor text editor. And many more custom map options.
+ * Description: Яндекс.Диалоги — это платформа для разработчиков, которая позволяет добавлять сценарии общения с пользователями на сервисы Яндекса.
  * Plugin URI:  https://github.com/mihdan/mihdan-yandex-dialogs
  * Version:     1.0.0
  * Author:      Mikhail Kobzarev
@@ -9,7 +9,7 @@
  * Text Domain: mihdan-yandex-dialogs
  * GitHub Plugin URI: https://github.com/mihdan/mihdan-yandex-dialogs
  *
- * @package mihdan-elementor-yandex-maps
+ * @package mihdan-yandex-dialogs
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -24,15 +24,11 @@ define( 'MIHDAN_YANDEX_DIALOGS_VERSION', '1.0.0' );
  * Class Mihdan_Elementor_Yandex_Maps
  *
  * Main Plugin class
- *
- * @since 1.3
  */
 final class Mihdan_Yandex_Dialogs {
 
 	/**
 	 * Minimum PHP Version
-	 *
-	 * @since 1.3
 	 *
 	 * @var string Minimum PHP version required to run the plugin.
 	 */
@@ -47,7 +43,7 @@ final class Mihdan_Yandex_Dialogs {
 	 *
 	 * @var Mihdan_Yandex_Dialogs The single instance of the class.
 	 */
-	private static $_instance = null;
+	private static $instance = null;
 	/**
 	 * Instance
 	 *
@@ -59,10 +55,10 @@ final class Mihdan_Yandex_Dialogs {
 	 * @return Mihdan_Yandex_Dialogs An instance of the class.
 	 */
 	public static function instance() {
-		if ( is_null( self::$_instance ) ) {
-			self::$_instance = new self();
+		if ( is_null( self::$instance ) ) {
+			self::$instance = new self();
 		}
-		return self::$_instance;
+		return self::$instance;
 	}
 
 	/**
@@ -125,3 +121,5 @@ final class Mihdan_Yandex_Dialogs {
 }
 // Instantiate Plugin Class.
 Mihdan_Yandex_Dialogs::instance();
+
+// eol.
