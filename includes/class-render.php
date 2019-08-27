@@ -19,12 +19,12 @@ class Render {
 
 	public function render() {
 		$options = array(
-			'guid'             => $this->osa->get_option( 'guid', 'basic' ),
-			'buttonText'       => $this->osa->get_option( 'button_text', 'basic' ),
-			'title'            => $this->osa->get_option( 'title', 'basic', 'Чат' ),
-			'theme'            => $this->osa->get_option( 'theme', 'basic', 'light' ),
-			'collapsedDesktop' => $this->osa->get_option( 'collapsed_desktop', 'basic', 'never' ),
-			'collapsedTouch'   => $this->osa->get_option( 'collapsed_touch', 'basic', 'never' ),
+			'guid'             => $this->osa->get_option( 'guid', 'mihdan_yandex_dialog_basic' ),
+			'buttonText'       => $this->osa->get_option( 'button_text', 'mihdan_yandex_dialog_basic' ),
+			'title'            => $this->osa->get_option( 'title', 'mihdan_yandex_dialog_basic', 'Чат' ),
+			'theme'            => $this->osa->get_option( 'theme', 'mihdan_yandex_dialog_basic', 'light' ),
+			'collapsedDesktop' => $this->osa->get_option( 'collapsed_desktop', 'mihdan_yandex_dialog_basic', 'never' ),
+			'collapsedTouch'   => $this->osa->get_option( 'collapsed_touch', 'mihdan_yandex_dialog_basic', 'never' ),
 		);
 		?>
 		<script type='text/javascript'>

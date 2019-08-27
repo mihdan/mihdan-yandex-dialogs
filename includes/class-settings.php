@@ -16,13 +16,13 @@ class Settings {
 	public function setup() {
 		$this->osa->add_section(
 			array(
-				'id'    => 'basic',
+				'id'    => 'mihdan_yandex_dialog_basic',
 				'title' => __( 'Basic Settings', 'mihdan-yandex-dialogs' ),
 			)
 		);
 
 		$this->osa->add_field(
-			'basic',
+			'mihdan_yandex_dialog_basic',
 			array(
 				'id'      => 'guid',
 				'type'    => 'text',
@@ -33,7 +33,7 @@ class Settings {
 		);
 
 		$this->osa->add_field(
-			'basic',
+			'mihdan_yandex_dialog_basic',
 			array(
 				'id'      => 'title',
 				'type'    => 'text',
@@ -44,7 +44,7 @@ class Settings {
 		);
 
 		$this->osa->add_field(
-			'basic',
+			'mihdan_yandex_dialog_basic',
 			array(
 				'id'      => 'button_text',
 				'type'    => 'text',
@@ -55,7 +55,7 @@ class Settings {
 		);
 
 		$this->osa->add_field(
-			'basic',
+			'mihdan_yandex_dialog_basic',
 			array(
 				'id'      => 'theme',
 				'type'    => 'select',
@@ -70,7 +70,7 @@ class Settings {
 		);
 
 		$this->osa->add_field(
-			'basic',
+			'mihdan_yandex_dialog_basic',
 			array(
 				'id'      => 'collapsed_desktop',
 				'type'    => 'select',
@@ -86,7 +86,7 @@ class Settings {
 		);
 
 		$this->osa->add_field(
-			'basic',
+			'mihdan_yandex_dialog_basic',
 			array(
 				'id'      => 'collapsed_touch',
 				'type'    => 'select',
