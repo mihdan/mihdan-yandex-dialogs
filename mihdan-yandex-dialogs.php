@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Mihdan: Yandex Dialogs
+ * Plugin Name: Mihdan: Dialogs For Yandex
  * Description: Яндекс.Диалоги — это платформа для разработчиков, которая позволяет добавлять сценарии общения с пользователями на сервисы Яндекса.
  * Plugin URI:  https://github.com/mihdan/mihdan-yandex-dialogs
  * Version:     1.0.0
