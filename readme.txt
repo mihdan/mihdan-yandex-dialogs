@@ -3,9 +3,9 @@ Contributors: mihdan
 Donate link: https://www.kobzarev.com/donate/
 Tags: dialogs, yandex, mihdan, widget
 Requires at least: 5.1
-Tested up to: 5.2
-Stable tag: 1.0.0
-Requires PHP: 5.6
+Tested up to: 5.5
+Stable tag: 1.0.1
+Requires PHP: 5.6.20
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 2. Страница настроек плагина
 
 == Changelog ==
+
+= 1.0.1 (30.06.2020) =
+* Исправлены ошибки
+* Обновлены поддерживаемые версии WP
+
 
 = 1.0.0 (28.08.2019) =
 * Инициализация плагина
