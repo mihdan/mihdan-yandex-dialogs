@@ -3,7 +3,7 @@
  * Plugin Name: Mihdan: Dialogs For Yandex
  * Description: Яндекс.Диалоги — это платформа для разработчиков, которая позволяет добавлять сценарии общения с пользователями на сервисы Яндекса.
  * Plugin URI:  https://github.com/mihdan/mihdan-yandex-dialogs
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Mikhail Kobzarev
  * Author URI:  https://www.kobzarev.com/
  * Text Domain: mihdan-yandex-dialogs
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'MIHDAN_YANDEX_DIALOGS_FILE', __FILE__ );
 define( 'MIHDAN_YANDEX_DIALOGS_DIR', __DIR__ );
-define( 'MIHDAN_YANDEX_DIALOGS_VERSION', '1.0.0' );
+define( 'MIHDAN_YANDEX_DIALOGS_VERSION', '1.0.1' );
 
 /**
  * Class Mihdan_Elementor_Yandex_Maps
