@@ -17,6 +17,9 @@ class Render {
 		add_action( 'wp_footer', array( $this, 'render' ) );
 	}
 
+	/**
+	 * @link https://yandex.ru/support/business-chats/widget.html
+	 */
 	public function render() {
 		$options = array(
 			'guid'             => $this->osa->get_option( 'guid', 'mihdan_yandex_dialog_basic' ),
@@ -38,7 +41,7 @@ class Render {
 					s = document.createElement('script');
 				s.async = true;
 				s.charset = 'UTF-8';
-				s.src = 'https://chat.s3.yandex.net/widget.js';
+				s.src = 'https://yastatic.net/s3/chat/widget.js';
 				n.parentNode.insertBefore(s, n);
 			})();
 		</script>
